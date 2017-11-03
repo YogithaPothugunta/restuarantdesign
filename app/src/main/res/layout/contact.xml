@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.csi5230.yogitha.restuarantdesign.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/topbar"
+        android:src="@drawable/topbarfeedback"
+        android:background="#21283B"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:id="@+id/bookingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/navbarcontact"
+        android:layout_marginTop="27dp"
+        android:background="#313541"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/capture"
+        android:id="@+id/map"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/border"
+        android:id="@+id/border"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id ="@+id/info"
+        android:src="@drawable/info"
+        android:layout_alignBottom="@+id/border"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="#23283B"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="386dp"
+            android:layout_height="26dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Address:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_gravity="left"
+            android:textColor="#CFD2DB" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Lorem ipsum dolor sit amet,"
+            android:textStyle="italic"
+            android:textColor="#CFD2DB"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/description4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="consectetur"
+            android:textStyle="italic"
+            android:textColor="#CFD2DB"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/description1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#23283B"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:text="Phone: +44 12 3456 789"
+            android:textSize="15sp"
+            android:textColor="#CFD2DB"
+            />
+
+        <TextView
+            android:id="@+id/description2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#23283B"
+            android:layout_marginLeft="20dp"
+            android:text="Email: Yourname@gmail.com"
+            android:textColor="#CFD2DB"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/description3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#23283B"
+            android:layout_marginLeft="20dp"
+            android:text="www.yourwebsite.com"
+            android:textColor="#CFD2DB"
+            android:textSize="15sp"
+            />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/icons"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:src="@drawable/icons"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

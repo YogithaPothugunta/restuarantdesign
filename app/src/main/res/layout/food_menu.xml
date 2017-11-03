@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#191919"
+    android:layout_height="match_parent">
+    <TableRow>
+        <ImageView
+            android:layout_marginLeft="80dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/soup" />
+        <TextView
+            android:padding="30dp"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:layout_height="80dp"
+            android:layout_width="150dp"
+            android:text="Soup"/>
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:layout_marginLeft="80dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/salad" />
+        <TextView
+            android:padding="30dp"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:layout_height="80dp"
+            android:layout_width="150dp"
+            android:text="Salad"/>
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:layout_marginLeft="80dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/maincourses" />
+        <TextView
+            android:padding="30dp"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:layout_height="80dp"
+            android:layout_width="200dp"
+            android:text="Main Courses"/>
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:layout_marginLeft="80dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/sidedishes" />
+        <TextView
+            android:padding="30dp"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:layout_height="80dp"
+            android:layout_width="150dp"
+            android:text="Side dishes"/>
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:layout_marginLeft="80dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/desserts" />
+        <TextView
+            android:padding="30dp"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:layout_height="80dp"
+            android:layout_width="150dp"
+            android:text="Desserts"/>
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:layout_marginLeft="80dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/cakes" />
+        <TextView
+            android:padding="30dp"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:layout_height="80dp"
+            android:layout_width="150dp"
+            android:text="Cakes"/>
+    </TableRow>
+</TableLayout>
